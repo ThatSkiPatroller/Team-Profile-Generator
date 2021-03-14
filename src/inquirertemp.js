@@ -59,7 +59,7 @@ async function askEmployee () {
         },
         {
             type: "input",
-            message: typeOfEmployee.employeeType === "Engineer" ? "What is the employee's Github username?" : "What is school does the employee go to?",
+            message: typeOfEmployee.employeeType === "Engineer" ? "What is the employee's Github username?" : "What is school does the intern go to?",
             name: "uniqueInfo"
         }
     ])
